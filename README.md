@@ -154,5 +154,7 @@ trajectory_controller/
 
 ## AI Tools used
 
+```
 1. **ChatGPT**- For Debugging
 2. **Claude AI** - For syntax and commands
+```
