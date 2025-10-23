@@ -150,3 +150,7 @@ trajectory_controller/
 ├── trajectory_generator.py   # Task 2: Time-parameterized trajectory generation
 ├── trajectory_tracker.py     # Task 3: PID-based trajectory tracking
 └── visualizer.py             # Visualization and plotting
+
+## AI Tools Used
+1. **ChatGPT**- For Debugging
+2. **Claude AI** - For syntax and commands
