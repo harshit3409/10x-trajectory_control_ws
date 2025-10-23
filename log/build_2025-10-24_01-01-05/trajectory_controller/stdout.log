@@ -1,0 +1,22 @@
+running egg_info
+creating ../../build/trajectory_controller/trajectory_controller.egg-info
+writing ../../build/trajectory_controller/trajectory_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/trajectory_controller/trajectory_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/trajectory_controller/trajectory_controller.egg-info/entry_points.txt
+writing requirements to ../../build/trajectory_controller/trajectory_controller.egg-info/requires.txt
+writing top-level names to ../../build/trajectory_controller/trajectory_controller.egg-info/top_level.txt
+writing manifest file '../../build/trajectory_controller/trajectory_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/trajectory_controller/trajectory_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/trajectory_controller/trajectory_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/a1/trajectory_control_ws/build/trajectory_controller/build
+creating /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib
+creating /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+copying trajectory_controller/trajectory_tracker.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+copying trajectory_controller/visualizer.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+copying trajectory_controller/path_smoother.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+copying trajectory_controller/trajectory_generator.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+copying trajectory_controller/__init__.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+running build_scripts
+creating /home/a1/trajectory_control_ws/build/trajectory_controller/build/scripts-3.12

@@ -1,0 +1,25 @@
+[2.851s] Invoking command in '/home/a1/trajectory_control_ws/src/trajectory_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/a1/trajectory_control_ws/build/trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a1/trajectory_control_ws/install/trajectory_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_controller build --build-base /home/a1/trajectory_control_ws/build/trajectory_controller/build install --record /home/a1/trajectory_control_ws/build/trajectory_controller/install.log --single-version-externally-managed install_data
+[3.538s] running egg_info
+[3.540s] creating ../../build/trajectory_controller/trajectory_controller.egg-info
+[3.618s] writing ../../build/trajectory_controller/trajectory_controller.egg-info/PKG-INFO
+[3.618s] writing dependency_links to ../../build/trajectory_controller/trajectory_controller.egg-info/dependency_links.txt
+[3.619s] writing entry points to ../../build/trajectory_controller/trajectory_controller.egg-info/entry_points.txt
+[3.619s] writing requirements to ../../build/trajectory_controller/trajectory_controller.egg-info/requires.txt
+[3.619s] writing top-level names to ../../build/trajectory_controller/trajectory_controller.egg-info/top_level.txt
+[3.619s] writing manifest file '../../build/trajectory_controller/trajectory_controller.egg-info/SOURCES.txt'
+[3.724s] reading manifest file '../../build/trajectory_controller/trajectory_controller.egg-info/SOURCES.txt'
+[3.727s] writing manifest file '../../build/trajectory_controller/trajectory_controller.egg-info/SOURCES.txt'
+[3.727s] running build
+[3.728s] running build_py
+[3.729s] creating /home/a1/trajectory_control_ws/build/trajectory_controller/build
+[3.730s] creating /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib
+[3.730s] creating /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+[3.732s] copying trajectory_controller/trajectory_tracker.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+[3.740s] copying trajectory_controller/visualizer.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+[3.740s] copying trajectory_controller/path_smoother.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+[3.742s] copying trajectory_controller/trajectory_generator.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+[3.742s] copying trajectory_controller/__init__.py -> /home/a1/trajectory_control_ws/build/trajectory_controller/build/lib/trajectory_controller
+[3.742s] running build_scripts
+[3.742s] creating /home/a1/trajectory_control_ws/build/trajectory_controller/build/scripts-3.12
+[3.743s] error: file '/home/a1/trajectory_control_ws/src/trajectory_controller/src/trajectory_controller/scripts/path_smoother_node' does not exist
+[3.795s] Invoked command in '/home/a1/trajectory_control_ws/src/trajectory_controller' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/a1/trajectory_control_ws/build/trajectory_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/a1/trajectory_control_ws/install/trajectory_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_controller build --build-base /home/a1/trajectory_control_ws/build/trajectory_controller/build install --record /home/a1/trajectory_control_ws/build/trajectory_controller/install.log --single-version-externally-managed install_data

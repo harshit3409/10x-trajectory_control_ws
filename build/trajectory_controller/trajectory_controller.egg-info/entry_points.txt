@@ -1,0 +1,5 @@
+[console_scripts]
+path_smoother_node = trajectory_controller.path_smoother:main
+trajectory_generator_node = trajectory_controller.trajectory_generator:main
+trajectory_tracker_node = trajectory_controller.trajectory_tracker:main
+visualizer_node = trajectory_controller.visualizer:main

@@ -1,0 +1,25 @@
+# Configuration parameters for trajectory controller
+
+/**:
+  ros__parameters:
+    # Path Smoother Parameters
+    smoothing_factor: 0.0  # 0 = interpolation, >0 = approximation
+    num_points: 100        # Number of points in smoothed path
+    publish_rate: 1.0      # Hz
+    
+    # Trajectory Generator Parameters
+    max_velocity: 0.22      # m/s (TurtleBot3 max: 0.22)
+    max_acceleration: 0.15  # m/s²
+    profile_type: 'trapezoidal'  # 'trapezoidal' or 'constant'
+    
+    # Trajectory Tracker Parameters (PID Gains)
+    linear_kp: 1.0
+    linear_ki: 0.0
+    linear_kd: 0.1
+    angular_kp: 2.5
+    angular_ki: 0.0
+    angular_kd: 0.3
+    max_linear_velocity: 0.22
+    max_angular_velocity: 2.84  # rad/s (TurtleBot3 max)
+    control_rate: 20.0  # Hz
+    lookahead_distance: 0.3  # m
