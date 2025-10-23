@@ -117,24 +117,6 @@ ros2 run trajectory_controller trajectory_tracker_node
 ros2 run trajectory_controller visualizer_node
 ```
 
-### Viewing Topics
-```bash
-# List all topics
-ros2 topic list
-
-# Echo smooth path
-ros2 topic echo /smooth_path
-
-# Echo trajectory
-ros2 topic echo /trajectory
-
-# Echo tracking error
-ros2 topic echo /tracking_error
-
-# Echo robot commands
-ros2 topic echo /cmd_vel
-```
-
 ### Viewing Plots
 
 Plots are automatically saved to `/tmp/trajectory_plot_*.png` every 5 seconds.
