@@ -151,6 +151,8 @@ trajectory_controller/
 ├── trajectory_tracker.py     # Task 3: PID-based trajectory tracking
 └── visualizer.py             # Visualization and plotting
 
-## AI Tools Used
+
+## AI Tools used
+
 1. **ChatGPT**- For Debugging
 2. **Claude AI** - For syntax and commands
